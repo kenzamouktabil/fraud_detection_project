@@ -95,6 +95,6 @@ The machine learning model is automatically loaded when the Django server starts
 
 ## Model Training
 
-The machine learning model used for fraud detection was trained in Google Colab using the files found in the `Model_autoencodeur` directory. You can use the provided notebooks to retrain or evaluate the model.
+The machine learning model used for fraud detection was trained in Google Colab . You can use the provided notebooks to retrain or evaluate the model.
 
 
