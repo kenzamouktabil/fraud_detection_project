@@ -3,7 +3,7 @@ This project is a fraud detection web application designed to help detect fraudu
 
 The application uses the autoencoder model I developed in Google Colab, trained on normal transaction data to detect anomalies, indicating possible fraud, integrated into a Django backend and a React frontend.
 
-[![Fraud Detection Web Application](https://img.youtube.com/vi/5KFDZas-kss/maxresdefault.jpg)](https://www.youtube.com/watch?v=5KFDZas-kss)
+[![Fraud Detection Web Application]](https://www.youtube.com/watch?v=5KFDZas-kss)
 
 ## Project Structure
 
