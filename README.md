@@ -50,6 +50,8 @@ This project is a fraud detection web application that combines a machine learni
 - Python 3.x (for running the backend)
 - Virtual environment for Python (`venv` or `virtualenv` recommended)
 
+
+
 ### Installation
 
 1. **Clone the repository**:
@@ -71,6 +73,7 @@ source venv/bin/activate   # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt  # Ensure you have a requirements.txt file
 python manage.py migrate
 python manage.py runserver
+
 
 
 
