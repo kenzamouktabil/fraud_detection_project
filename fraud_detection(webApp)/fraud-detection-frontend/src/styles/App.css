@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  :root {
+    --primary-deep-blue1: #1B263B;
+    --primary-deep-blue2: #58575f;
+
+    --primary-slate-gray: #2d3e52;
+    --accent-electric-green: #2ECC71;
+    --warning-orange: #E67E22;
+    --error-red: #E74C3C;
+    --neutral-light-gray: #ecf0f1;
+    --neutral-white: #FFFFFF;
+  }
+
+  body {
+    background-color: var(--neutral-light-gray);
+    color: var(--primary-slate-gray);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--primary-deep-blue2);
+    color: var(--neutral-white);
+    border: none;
+  }
+
+  .btn-primary {
+    background-color: var(--primary-deep-blue1);
+   color: var(--neutral-white);
+   border: none;
+  }
+
+  .btn-primary:active,
+.btn-primary:focus {
+  background-color: #000000; /* Consistent color on click or focus */
+  border-color: #1A3D5B; /* Consistent border on click or focus */
+  outline: none; /* Remove default focus outline */
+  box-shadow: none; /* Remove any default box shadow */
+}

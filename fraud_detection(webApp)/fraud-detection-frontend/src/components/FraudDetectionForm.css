@@ -1,0 +1,36 @@
+/* src/components/FraudDetectionForm.css */
+.form-group {
+    margin-bottom: 8px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+ 
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns label and input to the left */
+}
+
+.form-control {
+  width: 100%; /* Ensures the input takes full width */
+  margin-top: 0.10rem; /* Adds space between the label and input */
+}
+
+label {
+  font-weight: bold; /* Optional: makes the label stand out */
+  margin-bottom: 0.6rem; /* Adjust spacing below the label */
+
+}
+
+
+.card {
+  padding: 5%; /* Reduces padding to make sections more compact */
+  border-radius: 10px; /* Optional: keeps rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Keeps a subtle shadow */
+margin-top: 1px;
+
+}

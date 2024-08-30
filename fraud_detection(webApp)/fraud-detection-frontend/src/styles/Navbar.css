@@ -1,0 +1,29 @@
+/* src/styles/Navbar.css */
+.custom-navbar {
+    background-color: #004d7a; /* Dark blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .navbar-brand {
+        font-family: Arial, sans-serif;
+
+    font-weight: bold;
+    color: #2C3E50 !important; /* White text color */
+    font-size: 1.5rem;
+    
+  }
+  .navbar-brand:hover{
+    color: #857d7d !important; /* Lighter hover color */
+
+  }
+  
+  .nav-link {
+    text-align: center;
+    color: #0d0c0c !important; /* White text color */
+  }
+  
+  .nav-link:hover {
+    color: #b3acac !important; /* Lighter hover color */
+  }
+  
+  
