@@ -1,6 +1,7 @@
 # Fraud Detection Web Application
+This project is a fraud detection web application designed to help detect fraudulent transactions using machine learning. The app allows users to input transaction data or upload transaction files to identify potential fraud. 
 
-This project is a fraud detection web application that combines a machine learning model for fraud detection with a web interface. The application uses an autoencoder model developed in Google Colab, integrated into a Django backend and a React frontend.
+The application uses the autoencoder model i developed in Google Colab trained on normal transaction data to detect anomalies, indicating possible fraud., integrated into a Django backend and a React frontend.
 
 ## Project Structure
 
