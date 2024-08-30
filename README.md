@@ -3,6 +3,7 @@ This project is a fraud detection web application designed to help detect fraudu
 
 The application uses the autoencoder model i developed in Google Colab trained on normal transaction data to detect anomalies, indicating possible fraud., integrated into a Django backend and a React frontend.
 
+
 ## Project Structure
 
 - **Model_autoencodeur**: Contains the machine learning model files, including the `.h5` and `.keras` model files, as well as Jupyter notebooks used for training and evaluation.
