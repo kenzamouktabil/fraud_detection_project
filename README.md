@@ -10,7 +10,7 @@ This project is a fraud detection web application that combines a machine learni
   - `auto.keras`: Keras model file.
   - `autencoder_model.h5`: Saved model in HDF5 format.
   - `scaler.pkl`: Scaler used for preprocessing data.
-
+  
 - **fraud_detection(webApp)**: Contains the main web application.
   - **fraud-detection-frontend**: React frontend for the application.
     - `public`: Static files and public assets.
@@ -51,46 +51,49 @@ This project is a fraud detection web application that combines a machine learni
 - Virtual environment for Python (`venv` or `virtualenv` recommended)
 
 
+## Installation
 
-### Installation
+### 1. Clone the repository
 
-1. **Clone the repository**:
+First, clone the repository to your local machine and navigate into the project directory:
 
-   ```bash
-   git clone https://github.com/yourusername/fraud_detection_project.git
-   cd fraud_detection_project
+    ```bash
+    git clone https://github.com/yourusername/fraud_detection_project.git
+    cd fraud_detection_project
+    ```
 
+### 2. Set up the Backend (Django)
 
+Navigate to the backend directory, create a virtual environment, activate it, and install the necessary dependencies:
 
+    ```bash
+    cd fraud_detection(webApp)
+    python -m venv venv
+    source venv/bin/activate   # On Windows use: venv\Scripts\activate
+    pip install -r requirements.txt  # Ensure you have a requirements.txt file
+    python manage.py migrate
+    python manage.py runserver
+    ```
 
-2. **Set up the Backend (Django)**:
+### 3. Set up the Frontend (React)
 
-```bash
+Next, set up the frontend by navigating to the React project directory, installing dependencies, and starting the development server:
 
-cd fraud_detection(webApp)
-python -m venv venv
-source venv/bin/activate   # On Windows use: venv\Scripts\activate
-pip install -r requirements.txt  # Ensure you have a requirements.txt file
-python manage.py migrate
-python manage.py runserver
+    ```bash
+    cd fraud-detection-frontend
+    npm install
+    npm start
+    ```
 
+## Usage
 
+- Access the frontend of the application via `http://localhost:3000`.
+- Access the backend via `http://localhost:8000`.
 
-
-3. **Set up the frontend (React)**:
-
-```bash 
-cd fraud-detection-frontend
-npm install
-npm start
-
-
-##Usage
-Access the application via http://localhost:3000 for the frontend and http://localhost:8000 for the backend.
 The machine learning model is automatically loaded when the Django server starts.
 
+## Model Training
+
+The machine learning model used for fraud detection was trained in Google Colab using the files found in the `Model_autoencodeur` directory. You can use the provided notebooks to retrain or evaluate the model.
 
 
-
-# Model Training
-The model was trained in Google Colab using the files found in Model_autoencodeur. You can use the provided notebooks to retrain or evaluate the model.
