@@ -7,8 +7,8 @@ import joblib
 import pandas as pd
 
 # Load your trained model and the scaler
-model = tf.keras.models.load_model('fraud_detection_app/auto (1).keras')
-scaler = joblib.load('fraud_detection_app/scaler (1).pkl')
+model = tf.keras.models.load_model('fraud_detection_app/auto.keras')
+scaler = joblib.load('fraud_detection_app/scaler.pkl')
 
 @csrf_exempt
 def detect_fraud(request):
